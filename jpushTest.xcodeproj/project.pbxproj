@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D75C493708EFDA5E77BD9D0F /* Pods_jpushTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC680540ECC26C0C9CB00FC1 /* Pods_jpushTest.framework */; };
 		E8A8A0FA2094653400440E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A0F92094653400440E8A /* AppDelegate.m */; };
 		E8A8A0FD2094653400440E8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A0FC2094653400440E8A /* ViewController.m */; };
 		E8A8A1002094653400440E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A8A0FE2094653400440E8A /* Main.storyboard */; };
@@ -15,6 +16,16 @@
 		E8A8A1082094653600440E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A1072094653600440E8A /* main.m */; };
 		E8A8A1122094653600440E8A /* jpushTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A1112094653600440E8A /* jpushTestTests.m */; };
 		E8A8A11D2094653600440E8A /* jpushTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A11C2094653600440E8A /* jpushTestUITests.m */; };
+		E8A8A132209466C600440E8A /* BaseNavagationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A131209466C600440E8A /* BaseNavagationController.m */; };
+		E8A8A135209466F800440E8A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A134209466F800440E8A /* BaseTabBarViewController.m */; };
+		E8A8A1382094671A00440E8A /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A1372094671A00440E8A /* LaunchViewController.m */; };
+		E8A8A13B2094672800440E8A /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A13A2094672800440E8A /* NewViewController.m */; };
+		E8A8A13E2094673000440E8A /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A13D2094673000440E8A /* MeViewController.m */; };
+		E8A8A1412094673600440E8A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A1402094673600440E8A /* HomeViewController.m */; };
+		E8A8A147209468E800440E8A /* PushDetailOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A146209468E800440E8A /* PushDetailOneViewController.m */; };
+		E8A8A14A209468F800440E8A /* PushDetailTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A149209468F800440E8A /* PushDetailTwoViewController.m */; };
+		E8A8A14D2094690700440E8A /* PushDetailThressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A14C2094690700440E8A /* PushDetailThressViewController.m */; };
+		E8A8A14F2094751000440E8A /* qidongtu.gif in Resources */ = {isa = PBXBuildFile; fileRef = E8A8A14E2094751000440E8A /* qidongtu.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182AEB759AA087B6A18F2F51 /* Pods-jpushTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jpushTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-jpushTest/Pods-jpushTest.release.xcconfig"; sourceTree = "<group>"; };
 		E8A8A0F52094653400440E8A /* jpushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jpushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A8A0F82094653400440E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8A8A0F92094653400440E8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,28 @@
 		E8A8A1182094653600440E8A /* jpushTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jpushTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A8A11C2094653600440E8A /* jpushTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jpushTestUITests.m; sourceTree = "<group>"; };
 		E8A8A11E2094653600440E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A8A12A209465F800440E8A /* jpushTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jpushTest.entitlements; sourceTree = "<group>"; };
+		E8A8A130209466C600440E8A /* BaseNavagationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavagationController.h; sourceTree = "<group>"; };
+		E8A8A131209466C600440E8A /* BaseNavagationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavagationController.m; sourceTree = "<group>"; };
+		E8A8A133209466F800440E8A /* BaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		E8A8A134209466F800440E8A /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		E8A8A1362094671A00440E8A /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		E8A8A1372094671A00440E8A /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		E8A8A1392094672800440E8A /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		E8A8A13A2094672800440E8A /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		E8A8A13C2094673000440E8A /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		E8A8A13D2094673000440E8A /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		E8A8A13F2094673600440E8A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E8A8A1402094673600440E8A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E8A8A145209468E800440E8A /* PushDetailOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushDetailOneViewController.h; sourceTree = "<group>"; };
+		E8A8A146209468E800440E8A /* PushDetailOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushDetailOneViewController.m; sourceTree = "<group>"; };
+		E8A8A148209468F800440E8A /* PushDetailTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushDetailTwoViewController.h; sourceTree = "<group>"; };
+		E8A8A149209468F800440E8A /* PushDetailTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushDetailTwoViewController.m; sourceTree = "<group>"; };
+		E8A8A14B2094690700440E8A /* PushDetailThressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushDetailThressViewController.h; sourceTree = "<group>"; };
+		E8A8A14C2094690700440E8A /* PushDetailThressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushDetailThressViewController.m; sourceTree = "<group>"; };
+		E8A8A14E2094751000440E8A /* qidongtu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = qidongtu.gif; sourceTree = "<group>"; };
+		EC680540ECC26C0C9CB00FC1 /* Pods_jpushTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jpushTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF66DD65A5A1C0B45DA3FD8D /* Pods-jpushTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jpushTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jpushTest/Pods-jpushTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75C493708EFDA5E77BD9D0F /* Pods_jpushTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F997A784F2092A43EBF514E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC680540ECC26C0C9CB00FC1 /* Pods_jpushTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8A8A0EC2094653400440E8A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				E8A8A1102094653600440E8A /* jpushTestTests */,
 				E8A8A11B2094653600440E8A /* jpushTestUITests */,
 				E8A8A0F62094653400440E8A /* Products */,
+				F332D1B6E3F41CF333BB3687 /* Pods */,
+				6F997A784F2092A43EBF514E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +146,19 @@
 		E8A8A0F72094653400440E8A /* jpushTest */ = {
 			isa = PBXGroup;
 			children = (
+				E8A8A14E2094751000440E8A /* qidongtu.gif */,
+				E8A8A12A209465F800440E8A /* jpushTest.entitlements */,
 				E8A8A0F82094653400440E8A /* AppDelegate.h */,
 				E8A8A0F92094653400440E8A /* AppDelegate.m */,
 				E8A8A0FB2094653400440E8A /* ViewController.h */,
 				E8A8A0FC2094653400440E8A /* ViewController.m */,
+				E8A8A145209468E800440E8A /* PushDetailOneViewController.h */,
+				E8A8A146209468E800440E8A /* PushDetailOneViewController.m */,
+				E8A8A148209468F800440E8A /* PushDetailTwoViewController.h */,
+				E8A8A149209468F800440E8A /* PushDetailTwoViewController.m */,
+				E8A8A14B2094690700440E8A /* PushDetailThressViewController.h */,
+				E8A8A14C2094690700440E8A /* PushDetailThressViewController.m */,
+				E8A8A12B2094667A00440E8A /* Class */,
 				E8A8A0FE2094653400440E8A /* Main.storyboard */,
 				E8A8A1012094653600440E8A /* Assets.xcassets */,
 				E8A8A1032094653600440E8A /* LaunchScreen.storyboard */,
@@ -132,6 +186,66 @@
 			path = jpushTestUITests;
 			sourceTree = "<group>";
 		};
+		E8A8A12B2094667A00440E8A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8A12C2094667A00440E8A /* Home */,
+				E8A8A12D2094667A00440E8A /* Me */,
+				E8A8A12E2094667A00440E8A /* New */,
+				E8A8A12F2094667A00440E8A /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E8A8A12C2094667A00440E8A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8A13F2094673600440E8A /* HomeViewController.h */,
+				E8A8A1402094673600440E8A /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E8A8A12D2094667A00440E8A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8A13C2094673000440E8A /* MeViewController.h */,
+				E8A8A13D2094673000440E8A /* MeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		E8A8A12E2094667A00440E8A /* New */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8A1392094672800440E8A /* NewViewController.h */,
+				E8A8A13A2094672800440E8A /* NewViewController.m */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		E8A8A12F2094667A00440E8A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8A130209466C600440E8A /* BaseNavagationController.h */,
+				E8A8A131209466C600440E8A /* BaseNavagationController.m */,
+				E8A8A133209466F800440E8A /* BaseTabBarViewController.h */,
+				E8A8A134209466F800440E8A /* BaseTabBarViewController.m */,
+				E8A8A1362094671A00440E8A /* LaunchViewController.h */,
+				E8A8A1372094671A00440E8A /* LaunchViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F332D1B6E3F41CF333BB3687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF66DD65A5A1C0B45DA3FD8D /* Pods-jpushTest.debug.xcconfig */,
+				182AEB759AA087B6A18F2F51 /* Pods-jpushTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8A8A1212094653600440E8A /* Build configuration list for PBXNativeTarget "jpushTest" */;
 			buildPhases = (
+				46D463D50DD40DF8A8B66775 /* [CP] Check Pods Manifest.lock */,
 				E8A8A0F12094653400440E8A /* Sources */,
 				E8A8A0F22094653400440E8A /* Frameworks */,
 				E8A8A0F32094653400440E8A /* Resources */,
@@ -199,6 +314,11 @@
 				TargetAttributes = {
 					E8A8A0F42094653400440E8A = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E8A8A10C2094653600440E8A = {
 						CreatedOnToolsVersion = 9.3;
@@ -238,6 +358,7 @@
 				E8A8A1052094653600440E8A /* LaunchScreen.storyboard in Resources */,
 				E8A8A1022094653600440E8A /* Assets.xcassets in Resources */,
 				E8A8A1002094653400440E8A /* Main.storyboard in Resources */,
+				E8A8A14F2094751000440E8A /* qidongtu.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +378,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46D463D50DD40DF8A8B66775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jpushTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8A8A0F12094653400440E8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A8A14D2094690700440E8A /* PushDetailThressViewController.m in Sources */,
+				E8A8A14A209468F800440E8A /* PushDetailTwoViewController.m in Sources */,
+				E8A8A13B2094672800440E8A /* NewViewController.m in Sources */,
+				E8A8A132209466C600440E8A /* BaseNavagationController.m in Sources */,
 				E8A8A0FD2094653400440E8A /* ViewController.m in Sources */,
+				E8A8A135209466F800440E8A /* BaseTabBarViewController.m in Sources */,
 				E8A8A1082094653600440E8A /* main.m in Sources */,
+				E8A8A1412094673600440E8A /* HomeViewController.m in Sources */,
 				E8A8A0FA2094653400440E8A /* AppDelegate.m in Sources */,
+				E8A8A13E2094673000440E8A /* MeViewController.m in Sources */,
+				E8A8A147209468E800440E8A /* PushDetailOneViewController.m in Sources */,
+				E8A8A1382094671A00440E8A /* LaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,15 +582,18 @@
 		};
 		E8A8A1222094653600440E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF66DD65A5A1C0B45DA3FD8D /* Pods-jpushTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jpushTest/jpushTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SK2C9EK6T;
 				INFOPLIST_FILE = jpushTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = feiyu.jpushTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpushTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,15 +601,18 @@
 		};
 		E8A8A1232094653600440E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182AEB759AA087B6A18F2F51 /* Pods-jpushTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jpushTest/jpushTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SK2C9EK6T;
 				INFOPLIST_FILE = jpushTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = feiyu.jpushTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpushTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

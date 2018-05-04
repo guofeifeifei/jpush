@@ -1,0 +1,6 @@
+framework module Pods_jpushTest {
+  umbrella header "Pods-jpushTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
